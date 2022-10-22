@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="assets/css/normalize.css" />
+    <link rel="stylesheet" href="assets/css/app.css" />
+
+    <title>Calculado el total</title>
+  </head>
+  <body>
+    <div class="content">
+      <div class="flex-container">
+        <article class="card flex-container">
+          <div class="card-img">
+            <img
+              src="assets/img/product.jpg"
+              alt="Foto de control blanco y consola playstation 5 blanca a la derecha"
+            />
+          </div>
+          <div class="card-header">
+            <h3>Consola Playstation 5</h3>
+          </div>
+          <div class="card-body flex-container">
+            <input type="text" placeholder="Cantidad" />
+            <input type="text" placeholder="Color (Nombre o Código Hex)" />
+            <p>Precio: $650.000</p>
+          </div>
+          <div class="card-button">
+            <button>Calcular Total</button>
+          </div>
+        </article>
+        <article class="prod-review flex-container">
+          <p>Total: $<span id="prod-total-price">0</span></p>
+          <p>Cantidad: <span id="prod-amount">0</span></p>
+          <p>Color: <span id="prod-color"></span></p>
+        </article>
+      </div>
+    </div>
+  </body>
+</html>
