@@ -24,12 +24,16 @@
             <h3>Consola Playstation 5</h3>
           </div>
           <div class="card-body flex-container">
-            <input type="text" placeholder="Cantidad" />
-            <input type="text" placeholder="Color (Nombre o Código Hex)" />
-            <p>Precio: $650.000</p>
+            <input id="input-amount" type="text" placeholder="Cantidad" />
+            <input
+              id="input-color"
+              type="text"
+              placeholder="Color (Nombre o Código Hex)"
+            />
+            <p id="prod-price">Precio: $650.000</p>
           </div>
           <div class="card-button">
-            <button>Calcular Total</button>
+            <button id="calc-button">Calcular Total</button>
           </div>
         </article>
         <article class="prod-review flex-container">
@@ -39,5 +43,7 @@
         </article>
       </div>
     </div>
+
+    <script src="assets/js/app.js"></script>
   </body>
 </html>

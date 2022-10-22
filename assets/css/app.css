@@ -57,8 +57,9 @@
   background-color: var(--fel-card-color);
   justify-content: center;
   padding-left: 20px;
-  padding-right: 20px;
+  width: 400px;
   font-size: 1.5rem;
+  border-radius: var(--fel-card-border-radius);
 }
 
 #prod-color {
