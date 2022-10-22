@@ -34,8 +34,6 @@ const isValidNameColor = (colorStr) => {
   const dummyStyle = document.createElement("div").style;
   dummyStyle.color = colorStr;
 
-  console.log(dummyStyle.color === colorStr);
-
   return dummyStyle.color === colorStr;
 };
 
